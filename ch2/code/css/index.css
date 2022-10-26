@@ -1,0 +1,205 @@
+/* 1. */
+
+.topbar {
+    height: 28px;
+    background-color: black;
+}
+
+.topbar .container {
+    height: 28px;
+    background-color: black;
+}
+
+.topbar .container p {
+    /* margin-top: 0px; */
+    height: 28px;
+    line-height: 28px;
+    color: white;
+}
+
+.topbar .container p:first-child {
+    text-indent: 220px;
+}
+
+.topbar .container p:first-child a {
+    color: white;
+    text-decoration: none;
+}
+
+.topbar .container p:nth-child(2) {
+    margin-right: 5px;
+}
+
+.topbar .container p:nth-child(2) .title,
+.topbar .container p:nth-child(2) .register {
+    color: orange;
+}
+
+.topbar .container p:nth-child(2) .login {
+    color: white;
+}
+
+.topbar .container p:nth-child(2) .legou {
+    color: orange;
+}
+
+
+/* 2. */
+
+.nav {
+    height: 80px;
+    background-color: white;
+}
+
+.nav .search-shopcart-order {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 35px;
+}
+
+.nav .category-menu {
+    margin-top: 15px;
+    height: 30px;
+    background-color: red;
+}
+
+.nav .search-shopcart-order .search-input {
+    width: 440px;
+    height: 35px;
+    background-color: orange;
+    margin-right: 38px;
+    position: relative;
+}
+
+.nav .search-shopcart-order .search-input span {
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-image: url("../images/bgicon.png");
+}
+
+.nav .search-shopcart-order .search-input .search {
+    width: 390px;
+    height: 31px;
+    border: 2px solid orange;
+    text-indent: 10px;
+    color: #ccc;
+    outline: none;
+}
+
+.nav .search-shopcart-order .shopcart-order {
+    width: 200px;
+    height: 35px;
+    font-size: 0;
+}
+
+.nav .search-shopcart-order .shopcart-order button {
+    width: 100px;
+    height: 35px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    font-size: 9px;
+    color: #333;
+}
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) {
+    background-color: #ff6700;
+    color: white;
+}
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:first-child {
+    background-image: url("../images/gwc.jpg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 16px;
+    margin-right: 3px;
+}
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:nth-child(2) {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:nth-child(3) {
+    vertical-align: top;
+    display: inline-block;
+    width: 20px;
+    margin-left: 15px;
+}
+
+
+/* 3. */
+
+.menu {
+    height: 500px;
+    background-color: green;
+}
+
+
+/* 4. */
+
+.recommed {
+    height: 500px;
+    background-color: blue;
+}
+
+
+/* 5. */
+
+.ebooks {
+    height: 500px;
+    background-color: green;
+}
+
+
+/* 6. */
+
+.clothes {
+    height: 500px;
+    background-color: blue;
+}
+
+
+/* 7. */
+
+.sport {
+    height: 500px;
+    background-color: green;
+}
+
+
+/* 8. */
+
+.children-clothes {
+    height: 500px;
+    background-color: blue;
+}
+
+
+/* 9. */
+
+.daily {
+    height: 500px;
+    background-color: green;
+}
+
+
+/* 10. */
+
+.promode {
+    height: 500px;
+    background-color: blue;
+}
+
+
+/* 11. */
+
+.footer {
+    height: 500px;
+    background-color: green;
+}
